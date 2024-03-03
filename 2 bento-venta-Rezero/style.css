@@ -1,0 +1,328 @@
+:root[data-theme="rem"] {
+    /* colores  */
+    --text-color-primary: #9BCAFE;
+    --primary: #9BCAFE;
+    --primary-alternative: #FFB6BF;
+    --primary-container: #40343B;
+        --white: #ffffff;
+        
+    /* fondo de la aplicación */
+    --background-phone: url('/images/rem.png');
+    --background-figure1: url('/images/rem-figure1.jpg');
+    --background-figure2: url('/images/rem-figure2.jpg');
+  }
+  
+
+  :root[data-theme="ram"] {
+    /* colores  */
+    --text-color-primary: #FFB6BF;
+    --primary: #FFB6BF;
+    --primary-alternative: #9BCAFE;
+    --primary-container: #40343B;
+    --white: #FFFFFF;
+
+    /* fondos de la aplicación */
+    --background-phone: url('/images/ram.png');
+    --background-figure1: url('/images/ram-figure1.jpg');
+    --background-figure2: url('/images/ram-figure2.jpg');
+  }
+  
+  * {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+    body{
+       font-family: "Josefin Sans", sans-serif;
+       background-color: var(--primary);
+       padding-top: 5px;
+       padding-bottom:5px ;
+       font-size: 16px;
+       display: flex; 
+       justify-content: center;
+       align-items: center;
+       min-height: 100vh;
+       color: var(--white);
+    }
+    
+    .container{
+        min-height: 96vh;
+        width:98% ;
+        display: grid; 
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(7,auto);
+        grid-template-areas: 
+        "title"
+        "characters"
+        "figure-view"
+        "pay-figure"
+        "image-view"
+        "image-get"
+        "finish";
+        gap: 0.5rem;
+    }
+
+    .title{
+        grid-area: title;
+    }
+
+    .characters{
+        grid-area: characters;
+    }
+
+    .figure-view{
+        grid-area: figure-view;
+    }
+
+    .pay-figure{
+        grid-area: pay-figure;
+    }
+
+    .image-view{
+        grid-area: image-view;
+    }
+
+    .image-get{
+        grid-area: image-get;
+    }
+
+    .finish{
+        grid-area: finish;
+    }
+
+    .title,.characters,.figure-view,.pay-figure,.image-view,.image-get,.finish{
+        background-color: var(--primary-container);
+        border-radius: 10px;
+    }
+
+/*container1*/
+.title{
+    padding: 10px;
+    height: 60px;
+    font-size: 5vw;
+    display:grid;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+/*container2*/
+.characters{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.characters h4{
+    color: var(--text-color-primary);
+    font-size: 4vw;
+    font-weight:600;
+}
+
+.characters div{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 15px;
+}
+
+.characters img{
+    width: 50%;
+    height: 73%;
+}
+
+/*container3*/
+.figure-view{
+    color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 25px 35px 25px;
+    text-align: center;
+    gap: 16px;
+}
+
+.text-figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    line-height: 1.4;
+    gap: 16px;
+}
+
+.text-figure h2{
+    font-size: 4vh;
+    }
+
+    .text-figure p{
+        font-size: 3vh;
+    }
+
+.img-figure{
+    background-image: var(--background-figure1);
+    background-color: var(--primary-container);
+    background-repeat: no-repeat;
+    background-size: 56vh 68vh;
+    background-position: center; 
+    width: 100%;
+    height: 68vh;
+}
+
+.img-figure:hover{
+    background-image: var(--background-figure2);
+}
+
+
+/*container5*/
+
+    .image-view{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 55px 25px 55px 25px;
+        border-radius: 15px;
+    }
+
+
+    .img-phone{
+        background-image: var(--background-phone);
+        background-color: var(--white);
+        background-repeat: no-repeat;
+        background-size: 58vh 80vh;
+        background-position: center; 
+        width: 100%;
+        height: 80vh;
+    }
+
+/*container4 - container6 */
+.pay-figure, .image-get{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    line-height: 1.6;
+}
+
+.pay-figure button , .image-get button{
+    width: 40%;
+    height: 40%;
+    background-color: var(--white);
+    color: var(--primary);
+    font-size: 4vw;
+    font-weight: 800;
+}
+
+.txt-info h2{
+    font-size: 9.8vw;
+}
+
+.txt-info p{
+    color: var(--primary);
+}
+
+    /*container7*/
+    .finish{
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .line1 {
+        width: 100%;
+        height: 18px; 
+        background-color: var(--primary-alternative); 
+        border-radius: 20px;
+    }
+    .line2 {
+        width: 100%;
+        height: 18px; 
+        background-color: var(--primary); 
+        border-radius: 20px;
+    }
+
+
+
+
+    @media screen and (min-width: 960px){
+        body{
+            padding: 0px;
+        }
+
+        .container{
+            height: 92vh;
+            width:98% ;
+            grid-template-columns: repeat(6,1fr);
+            grid-template-rows: repeat(4,1fr);
+        grid-template-areas: 
+        "image-view    image-view     pay-figure     pay-figure     characters     characters "
+        "image-view    image-view        title         title        characters     characters"
+        "image-view    image-view       finish        finish        figure-view    figure-view"
+        "image-view    image-view      image-get     image-get      figure-view    figure-view "
+        }
+
+
+/*container1*/
+.title{
+    font-size: 3vw;
+    height: auto;
+}
+
+/*container2*/
+.characters{
+    padding: 25px ;
+}
+
+.characters h4{
+    font-size: 1.25vw;
+    font-weight:600;
+    height: 15%;
+}
+
+
+/*container3*/
+.figure-view{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px ;
+    gap: 10px;
+}
+
+.img-figure{
+    background-size: 31vh 39vh;
+    background-position: center; 
+    width: 31vh;
+    height: 38vh;
+}
+
+.text-figure h2{
+font-size: 3.3vh;
+}
+
+/*container4 - container6 */
+.txt-info h2{
+    font-size: 3vw;
+}
+
+.txt-info p{
+    font-size: 1.4vw;
+}
+.pay-figure button , .image-get button{
+    font-size: 1.3vw;
+    width: 48%;
+}
+
+.pay-figure, .image-get{
+    padding: 25px;
+    line-height: 1.4;
+}
+    }
