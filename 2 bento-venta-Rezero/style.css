@@ -7,9 +7,9 @@
         --white: #ffffff;
         
     /* fondo de la aplicación */
-    --background-phone: url('/images/rem.png');
-    --background-figure1: url('/images/rem-figure1.jpg');
-    --background-figure2: url('/images/rem-figure2.jpg');
+    --background-phone: url('images/rem.png');
+    --background-figure1: url('images/rem-figure1.jpg');
+    --background-figure2: url('images/rem-figure2.jpg');
   }
   
 
@@ -22,9 +22,9 @@
     --white: #FFFFFF;
 
     /* fondos de la aplicación */
-    --background-phone: url('/images/ram.png');
-    --background-figure1: url('/images/ram-figure1.jpg');
-    --background-figure2: url('/images/ram-figure2.jpg');
+    --background-phone: url('images/ram.png');
+    --background-figure1: url('images/ram-figure1.jpg');
+    --background-figure2: url('images/ram-figure2.jpg');
   }
   
   * {
