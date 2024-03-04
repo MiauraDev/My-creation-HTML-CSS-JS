@@ -24,8 +24,15 @@
         <div class="characters">
             <h4>SELECT CHARACTER</h4>
             <div>
-                <img src="images/rem.gif" alt="rem" onclick="cambiarTema('rem')">
-                <img src="images/ram.gif" alt="ram" onclick="cambiarTema('ram')">
+                <!-- 'rem' -->
+                <img  src="images/rem.gif" alt="rem" onclick="changeTheme('rem')"
+                    onmousedown="playAudio('audioElementRem')" onmouseup="stopAudio('audioElementRem')">
+                <audio id="audioElementRem" src="rem.MP3"></audio>
+
+                <!-- 'ram' -->
+                <img src="images/ram.gif" alt="ram" onclick="changeTheme('ram')"
+                    onmousedown="playAudio('audioElementRam')" onmouseup="stopAudio('audioElementRam')">
+                <audio id="audioElementRam" src="ram.MP3"></audio>
             </div>
         </div>
 
@@ -40,10 +47,10 @@
 
         <div class="pay-figure">
             <div class="txt-info">
-                <h2>$93.64</h2>
+                <h2 id="figurePrice">$178.83</h2>
                 <p>1/7 SCALE FIGURE</p>
             </div>
-            <button>Buy now</button>
+            <button onclick="redirectToPage1()">Buy now</button>
         </div>
 
         <div class="image-view">
@@ -56,7 +63,7 @@
                 <h2>Free</h2>
                 <p>PREMIUM IMAGE</p>
             </div>
-            <button>Get now</button>
+            <button onclick="redirectToPage2()">Get now</button>
         </div>
 
         <div class="finish">

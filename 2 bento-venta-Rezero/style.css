@@ -3,7 +3,7 @@
     --text-color-primary: #9BCAFE;
     --primary: #9BCAFE;
     --primary-alternative: #FFB6BF;
-    --primary-container: #40343B;
+    --primary-container: #3A373A;
         --white: #ffffff;
         
     /* fondo de la aplicación */
@@ -18,7 +18,7 @@
     --text-color-primary: #FFB6BF;
     --primary: #FFB6BF;
     --primary-alternative: #9BCAFE;
-    --primary-container: #40343B;
+    --primary-container: #3A373A;
     --white: #FFFFFF;
 
     /* fondos de la aplicación */
@@ -131,9 +131,11 @@
 }
 
 .characters img{
+    cursor: pointer;
     width: 50%;
-    height: 73%;
+    height: 74%;
 }
+
 
 /*container3*/
 .figure-view{
@@ -185,7 +187,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 55px 25px 55px 25px;
+        padding: 55px 38px 55px 38px;
         border-radius: 15px;
     }
 
@@ -216,6 +218,12 @@
     color: var(--primary);
     font-size: 4vw;
     font-weight: 800;
+    cursor: pointer;
+    border: 0px;
+    transition: transform 0.3s ease;
+}
+.pay-figure button:hover , .image-get button:hover{
+    transform: scale(1.1); 
 }
 
 .txt-info h2{
