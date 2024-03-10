@@ -358,14 +358,14 @@ ul {
 
 .ancla h1 {
   color: var(--white);
-  font-size: 4vh;
+  font-size: 3.6vh;
 }
 
 .text-decoration {
   padding-left: 10px;
   font-weight: 400;
   color: var(--white);
-  font-size: 4vh;
+  font-size: 3.6vh;
 }
 
 /* MENÚ */
@@ -400,7 +400,7 @@ ul {
 .bebidas h2 {
   text-align: center;
   padding-inline: 6%;
-  font-size: 3.5vh;
+  font-size: 3.4vh;
 }
 
 .title-bebidas {
@@ -469,7 +469,7 @@ ul {
 .alimentos h2 {
   text-align: center;
   padding-inline: 6%;
-  font-size: 3.5vh;
+  font-size: 3.4vh;
 }
 
 .title-alimentos {
