@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks</title>
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style-desktop.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/logo.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders+Display:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Lexend+Deca:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#inicio" class="inicio">
+                <img src="images/logo.svg" alt="logo" class="logo"></a>
+
+
+            <label class="labe-hamburguesa" for="menu_hamburguesa">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="listicon"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+            </label>
+
+            <input class="menu-hamburguesa" type="checkbox" id="menu_hamburguesa">
+
+            <ul class="ullinks">
+                <li class="li_links">
+                    <a href="#menu" class="link">MENÚ</a>
+                </li>
+                <li class="li_links">
+                    <a href="#rewards" class="link">REWARDS</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="section-principal" id="inicio">
+        <div class="contenido-principal">
+            <h1>Disfruta tu experiencia <br> <span> Starbucks </span> donde <br>quieras</h1>
+            <p>¿Eres más de café, de smoothie, de latte<br> o de Frappuccino®? No esperes más y<br> pide Starbucks® a
+                domicilio
+                o para llevar.</p>
+            <div class="boton-modal">
+                <label for="btn-modal">
+                    Descarga la APP</label>
+            </div>
+
+            <!--Ventana Modal-->
+            <input type="checkbox" id="btn-modal">
+            <div class="container-modal">
+                <div class="content-modal">
+
+                    <a href="https://play.google.com/store/apps/details?id=com.starbucks.peru&pcampaignid=web_share"
+                        target="_blank">
+                        <img src="images/StarbucksAppQR.png" alt="QR" class="starbucks-qr">
+                    </a>
+                    <img src="images/App.gif" alt="App">
+                </div>
+                <label for="btn-modal" class="cerrar-modal"></label>
+            </div>
+
+
+        </div>
+        <div class="animacion-principal">
+            <div class="rotacion-continua">
+                <img src="images/Cafe.png" class="img1">
+                <img src="images/smoothie.png" class="img2">
+                <img src="images/Latte.png" class="img3">
+                <img src="images/crema.png" class="img4">
+            </div>
+        </div>
+    </section>
+
+    <section class="ancla" id="menu">
+        <div>
+            <h1>MENÚ</h1>
+    </section>
+
+    <section class="section-menu">
+        <div class="bebidas">
+            <div class="title-bebidas">
+                <h2>LAS MEJORES BEBIDAS</h2>
+            </div>
+
+            <div class="b-item1">
+                <div class="flip-card">
+                    <div class="front">
+                        <img src="images/COOKIES_CREAM_FRAPPUCCINO.png">
+                    </div>
+                    <div class="back">
+                        <h5>Cookies & Creme<br>
+                            Frappuccino Alto</h5>
+                        <p>Clásico frappuccino de leche batido con mocha blanco y gotas sabor a chocolate,
+                            jarabe de azúcar y decorado con crema batida y topping de galletas trozadas.</p>
+                        <h5> <a href="https://www.starbucks.pe/ecommerce/section/bebidas/frappuccinos" target="_blank">
+                            ⭐VER MÁS⭐ <br> FRAPPUCCINOS</a></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="b-item2">
+                <div class="flip-card">
+                    <div class="front">
+                        <img src="images/Molten_Latte.png">
+                    </div>
+                    <div class="back">
+                        <h5>Molten Latte Alto</h5>
+                        <p>Café espresso combinado con mocha, chispas de chocolate y leche
+                            vaporizada decorado con crema batida de chocolate.</p>
+                            <h5> <a href="https://www.starbucks.pe/ecommerce/section/bebidas/espresso-caliente" target="_blank">
+                                ⭐VER MÁS⭐ <br> ESPRESSOS CALIENTES</a></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="b-item3">
+                <div class="flip-card">
+                    <div class="front">
+                        <img src="images/MANJAR_BLANCO_LATTE_HELADO.png">
+                    </div>
+                    <div class="back">
+                        <h5>Manjar blanco Latte<br>
+                            helado Alto</h5>
+                        <p>Café espresso mezclado con manjar blanco, leche fría y
+                            cubos de hielo, decorado con topping de caramelo. </p>
+                            <h5> <a href="https://www.starbucks.pe/ecommerce/section/bebidas/espresso-frio" target="_blank">
+                                ⭐VER MÁS⭐ <br> ESPRESSOS FRIOS</a></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="b-item4">
+                <div class="flip-card">
+                    <div class="front">
+                        <img src="images/TE_HIBISCUS_TEAVANNA.png">
+                    </div>
+                    <div class="back">
+                        <h5>Té Hibiscus<br>
+                            Teavanna Alto</h5>
+                        <p>Té filtrante con escencia
+                            de flores, canela, manzana, azucar de papaya y mango, ojas de blackberry y
+                            pétalos de rosas.</p>
+                            <h5> <a href="https://www.starbucks.pe/ecommerce/section/bebidas/otras-bebidas-calientes" target="_blank">
+                                ⭐VER OTRAS⭐ <br> BEBIDAS CALIENTES</a></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="b-item5">
+                <div class="flip-card">
+                    <div class="front">
+                        <img src="images/TE_MINT_CITRUS_TEAVANNA_HELADO_V2.png">
+                    </div>
+                    <div class="back">
+                        <h5>Té Mint Citrus<br>
+                            Teavanna helado Alto</h5>
+                        <p>Té verde filtrante frío con limón, verbena y menta.</p>
+                        <h5> <a href="https://www.starbucks.pe/ecommerce/section/bebidas/otras-bebidas-frias" target="_blank">
+                            ⭐VER OTRAS⭐ <br> BEBIDAS FRIAS</a></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="b-item6">
+                <div class="flip-card">
+                    <div class="front">
+                        <img src="images/TOASTED_VAINILLA_FRIO_SHAKEN_EXPRESSO_CON_BEBIDA_DE_AVENA.png">
+                    </div>
+                    <div class="back">
+                        <h5>Toasted<br>
+                            Vanilla Shaken <br>
+                            Espresso Frio con <br>
+                            Bebida de Avena Alto</h5>
+                        <p>Bebida helada hecha a base de espresso, jarabe de vainilla tostada,
+                            completada con bebida de avena y cubos de hielo.</p>
+                            <h5> <a href="https://www.starbucks.pe/ecommerce/section/bebidas/shaken-espresso" target="_blank">
+                                VER OTROS <br> ⭐SHAKEN⭐ <br> ESPRESSOS</a></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="alimentos">
+            <div class="title-alimentos">
+                <h2>LOS MEJORES ALIMENTOS</h2>
+            </div>
+            <div class="a-item1">
+                <div class="flip-card">
+                    <div class="front">
+                        <img src="images/BERRY_DANISH_202311102116596337.png">
+                    </div>
+                    <div class="back">
+                        <h5>Berry Danish</h5>
+                        <p>Tartaleta de masa de hojaldre rellena de
+                            crema y coulis de arándanos y fresas.</p>
+                            <h5> <a href="https://www.starbucks.pe/ecommerce/section/bebidas/section/alimentos/pastries" target="_blank">
+                                ⭐VER MÁS⭐ <br>PASTRIES</a></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="a-item2">
+                <div class="flip-card">
+                    <div class="front">
+                        <img src="images/MUFFIN_DE_NARANJA_Y_CHOCOCHIPS.png">
+                    </div>
+                    <div class="back">
+                        <h5>Muffin de <br>
+                            Naranja</h5>
+                        <p>Muffin realizado con harina de trigo, aceite vegetal,
+                            huevos, jugo de naranja, ralladura de naranja, cobertura bitter,
+                            margarina, azucar, escencia de
+                            vainilla y naranja.</p>
+                            <h5> <a href="https://www.starbucks.pe/ecommerce/section/bebidas/section/alimentos/pastries" target="_blank">
+                                ⭐VER MÁS⭐ <br>PASTRIES</a></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="a-item3">
+                <div class="flip-card">
+                    <div class="front">
+                        <img src="images/CHEESECAKE_DE_ARANDANOS.png">
+                    </div>
+                    <div class="back">
+                        <h5>Cheesecake de<br>
+                            Arándanos
+                        </h5>
+                        <p>Cheesecake con base de galleta y couliz de fresa y arándanos.</p>
+                        <h5> <a href="https://www.starbucks.pe/ecommerce/section/alimentos/postres" target="_blank">
+                            ⭐VER MÁS⭐ <br>POSTRES</a></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="a-item4">
+                <div class="flip-card">
+                    <div class="front">
+                        <img src="images/BROWNIE_DE_COOKIES_AND_CREAM.png">
+                    </div>
+                    <div class="back">
+                        <h5>Brownie de<br>
+                            Cookies & Cream</h5>
+                        <p>Clásico brownie sabor chocolate, relleno de
+                            fudgecon trozos de galletas cookies & creme.</p>
+                            <h5> <a href="https://www.starbucks.pe/ecommerce/section/alimentos/postres" target="_blank">
+                                ⭐VER MÁS⭐ <br>POSTRES</a></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="a-item5">
+                <div class="flip-card">
+                    <div class="front">
+                        <img src="images/croissant_jamon_ingles.png">
+                    </div>
+                    <div class="back">
+                        <h5>Croissant jamón <br>
+                            inglés y queso</h5>
+                        <p>Delicioso sandwich realizado con nuestro croissant francés
+                            horneado en tienda, relleno con láminas de jamón inglés y queso andino.</p>
+                            <h5> <a href="https://www.starbucks.pe/ecommerce/section/alimentos/sandwiches" target="_blank">
+                                ⭐VER MÁS⭐<br>SANDWICHES</a></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="a-item6">
+                <div class="flip-card">
+                    <div class="front">
+                        <img src="images/SANDWICH_BRIOCHE_CAMPESINO.png">
+                    </div>
+                    <div class="back">
+                        <h5>Sandwich <br>
+                            Brioche campesino</h5>
+                        <p>Contundente sándwich con jamón de pierna de cerdo, queso crema y jalea de rocoto. </p>
+                        <h5> <a href="https://www.starbucks.pe/ecommerce/section/alimentos/sandwiches" target="_blank">
+                            ⭐VER MÁS⭐ <br>SANDWICHES</a></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="ancla" id="rewards">
+        <h1>STARBUCKS® </h1>
+        <p class="text-decoration"> R E W A R D S</p>
+    </section>
+
+    <section class="section-rewards">
+        <div class="rewards">
+            <div class="rewards-part1">
+                <h5>Gana Estrellas con efectivo o tarjeta</h5>
+                <p>Como miembro del programa Starbucks Rewards, ganas Estrellas por las
+                    compras que realizas en nuestras tiendas, desde la web Starbucks.pe o nuestra App.</p>
+                <p>Podrás canjear las Estrellas por bebidas, alimentos, café en grano y mucho más.</p>
+            </div>
+            <div class="rewards-part2">
+                <div class="rewards-row">
+                    <div>
+                        <img src="images/Ordena.svg" alt="ordena y paga">
+                        <p>Ordena <br>y paga</p>
+                    </div>
+                    <div>
+                        <img src="images/Acumula.svg" alt="Acumula Estrellas">
+                        <p>Acumula<br> Estrellas</p>
+                    </div>
+                </div>
+                <div class="rewards-row">
+                    <div>
+                        <img src="images/Canjea.svg" alt="Canjea tus Estrellas">
+                        <p>Canjea tus<br> Estrellas</p>
+                    </div>
+                    <div>
+                        <img src="images/Aprovecha.svg" alt="Aprovecha Star Bonus">
+                        <p>Aprovecha los<br>
+                            Star Bonus</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="preguntas-frecuentes">
+        <div class="preguntas">
+            <div class="info-preguntas">
+                <h5>¿Preguntas?</h5>
+                <p>Queremos ayudarte en todo lo que podamos.
+                    Puedes preguntarle a tu barista en cualquier momento o ver nuestras preguntas más frecuentes.</p>
+            </div>
+
+            <div class="acordion">
+                <details>
+                    <summary>¿CÓMO PUEDO FORMAR PARTE DE STARBUCKS REWARDS?</summary>
+                    <p>Para ser un miembro del programa Starbucks Rewards es necesario que crees una cuenta por
+                        medio de Starbucks Perú APP o por medio de nuestra web www.starbucks.pe
+                        <br><br>
+                        Al momento de crear tu cuenta, deberás completar los siguientes datos: Nombre completo,
+                        DNI, correo electrónico y crear una clave segura.
+                    </p>
+                </details>
+                <details>
+                    <summary> ¿CÓMO ACUMULO ESTRELLAS?</summary>
+                    <p>El valor de tus compras se convierten en estrellas. Cuando realices una compra en Tiendas
+                        Starbucks Perú, muestra el código de barras o QR en tu Starbucks APP.<br>
+                        En caso desees comprar por medio de la Starbucks APP o de nuestra web, deberás loguearte
+                        con tu cuenta Starbucks Rewards, hacer la elección de tu pedido, el canal por el cual deseas ser
+                        atendido y finalmente elegir el medio de pago.<br><br>
+                        • Starbucks Card física o virtual: gana 1 estrella por cada 2 soles de consumo.<br>
+                        • Tarjeta de crédito o débito: gana 1 estrella por cada 3 soles de consumo.<br>
+                        • Otros medios de pago: gana 1 estrella por cada 4 soles de consumo.
+                    </p>
+
+                </details>
+                <details>
+                    <summary>¿QUÉ HAGO SI MI STARBUCKS CARD ES ROBADA O LA PIERDO?</summary>
+                    <p>En caso tu Starbucks Card se pierde o es robada, puedes comunicarte con nuestra área de
+                        Contact Center llamando al 505 0050 de lunes a viernes de 9 a.m. a 6 p.m. para bloquear la
+                        cuenta y luego trasladar tus beneficios a tu nueva Starbucks Card.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer">
+            <div class="txt-footer">
+                <p>© 2024 Desarrollado por Laura Luque</p>
+            </div>
+            <div class="redes">
+                <img src="images/Facebook.jpg" alt="Facebook">
+                <img src="images/twiter.jpg" alt="twiter">
+                <img src="images/instagram.jpg" alt="instagram">
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
