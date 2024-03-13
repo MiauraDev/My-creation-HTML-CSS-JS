@@ -1,0 +1,78 @@
+header {
+  position: fixed;
+  z-index: 100;
+}
+
+.logo {
+  width: 18%;
+  height: auto;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 96%;
+  padding-inline: 6%;
+  background-color: var(--background1);
+  box-shadow: 0 5px 5px -5px rgb(0 0 0 / 50%);
+}
+
+ul {
+  list-style: none;
+}
+
+.listicon {
+  color: var(--alternative);
+  cursor: pointer;
+}
+
+.menu-hamburguesa {
+  display: none;
+}
+
+.ullinks {
+  position: absolute;
+  top: 6.5%;
+  right: 0;
+  display: flex;
+  width: auto;
+  height: 0;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+  overflow: hidden;
+  background-color: var(--background1);
+  transition: all 0.3s;
+}
+
+/* MENU HAMBURGUESA:
+      Selecciona el siguiente elemento, posterior al checkbox marcado */
+.menu-hamburguesa:checked + .ullinks {
+  position: fixed;
+  height: 12%;
+  padding-inline: 4%;
+  z-index: 100;
+}
+
+.link {
+  font-size: 2.5vh;
+  font-weight: bold;
+  color: var(--txt-primary);
+}
+
+.link:hover {
+  color: var(--green-alternative1);
+}
+
+.section-principal,
+.section-menu,
+.section-rewards,
+.footer {
+  background-color: var(--background1);
+}
+
+.ancla,
+.preguntas-frecuentes {
+  background-color: var(--background2);
+}
