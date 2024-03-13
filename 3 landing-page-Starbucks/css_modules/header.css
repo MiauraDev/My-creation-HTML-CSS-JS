@@ -76,3 +76,31 @@ ul {
 .preguntas-frecuentes {
   background-color: var(--background2);
 }
+
+@media (width >=768px){
+  .inicio{
+    width: 7%;
+}
+
+.logo{
+    width: 100%;
+    height: auto;
+}
+
+.labe-hamburguesa {
+    display: none;
+}
+
+.ullinks{
+    position: static;
+    flex-direction: row;
+    gap: 3rem;
+    width: auto;
+    height: auto;
+}
+
+.link{
+    font-size: 3vh;
+    transition: all .3s;
+}
+}

@@ -1,0 +1,17 @@
+.ancla {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .ancla h1 {
+    color: var(--white);
+    font-size: 3.6vh;
+  }
+  
+  .text-decoration {
+    padding-left: 10px;
+    font-weight: 400;
+    color: var(--white);
+    font-size: 3.6vh;
+  }
