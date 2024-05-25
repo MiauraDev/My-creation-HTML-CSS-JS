@@ -70,6 +70,7 @@ header {
 
 .tablas {
   display: flex;
+  padding-inline: 20px;
   justify-content: space-around;
 }
 
@@ -162,6 +163,7 @@ tr {
 
   .tablas {
     flex-direction: column;
+    padding-inline: 10px;
     align-items: center;
   }
 
