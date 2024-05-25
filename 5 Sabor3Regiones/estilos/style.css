@@ -231,7 +231,6 @@ iframe {
   padding-right: 20px;
 }
 
-/* Enlaces */
 .down-content a {
   color: white;
   text-decoration: none;
@@ -383,7 +382,6 @@ button:hover {
   z-index: 999;
 }
 
-/*responsive*/
 @media only screen and (max-width: 1300px) {
   .container {
     display: flex;
