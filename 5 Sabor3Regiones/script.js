@@ -1,6 +1,6 @@
 function enviarReserva() {
     alert('Reserva enviada con éxito');
-    return true; 
+    return true;
 }
 
 document.addEventListener("DOMContentLoaded", function () {
